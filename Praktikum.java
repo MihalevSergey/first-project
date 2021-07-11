@@ -3,13 +3,14 @@ import java.util.Scanner;
 public class Praktikum {
     public static void main(String[] args) {
          // Должно стать полем нового класса
+	
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Сколько денег у вас осталось до зарплаты?");
         double moneyBeforeSalary = scanner.nextDouble();
         System.out.println("Сколько дней до зарплаты?");
         int daysBeforeSalary = scanner.nextInt();
-	//int sum = 0;
+	int sum = 0;
         
         Converter converter = new Converter(78.5,88.7,0.75);
         DinnerAdvisor dinnerAdvisor = new DinnerAdvisor();
